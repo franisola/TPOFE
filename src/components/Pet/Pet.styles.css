@@ -1,0 +1,25 @@
+.swal2-confirm {
+    background-color: #7900cc !important;
+    color: white !important;
+    border-radius: .25rem !important;
+    /* padding: 5px 10px; */
+    border: none !important;
+    width: 40% !important;
+
+
+    /* className='w-[45%] rounded-[10px] bg-[#7900cc] px-[10px] py-[5px] t */
+}
+
+.swal2-cancel {
+    background-color: white !important;
+    color: #7900cc !important;
+    width: 45% !important;
+
+    /* className='w-[45%] rounded-[10px] bg-[#C0B7C6] px-[10px] py-[5px] text-center self-center text-[#7900cc]' */
+}
+
+.swal2-actions{
+    width: 75%;
+}
+
+

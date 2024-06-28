@@ -1,0 +1,14 @@
+input[type="number"].appearance-none {
+    -webkit-appearance: textfield; /* Para Chrome y Safari */
+    -moz-appearance: textfield;    /* Para Firefox */
+    appearance: textfield;         /* Estándar */
+  
+    /* Agrega un borde y un fondo si los necesitas */
+  }
+  
+  /* Para eliminar las flechas internas en Chrome y Safari */
+  input[type="number"].appearance-none::-webkit-inner-spin-button,
+  input[type="number"].appearance-none::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }

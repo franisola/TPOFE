@@ -1,0 +1,11 @@
+{
+	"printWidth": 100,
+	"tabWidth": 4,
+	"useTabs": true,
+	"singleQuote": true,
+	"jsxSingleQuote": true,
+	"plugins": ["prettier-plugin-tailwindcss"],
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	}
+}
