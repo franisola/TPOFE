@@ -108,7 +108,6 @@ export const Register = () => {
 				return;
 			}
 
-			console.log('1', res);
 
 			if (res.success === false) {
 				setLoading(false);
@@ -118,7 +117,6 @@ export const Register = () => {
 				return;
 			}
 
-			console.log('2', res);
 			setLoading(false);
 			dispatch(signInSuccess(res));
 
