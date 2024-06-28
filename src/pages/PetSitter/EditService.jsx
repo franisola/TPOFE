@@ -66,8 +66,8 @@ export const EditService = () => {
 			if (value.length < 10) {
 				return (error = 'La descripción debe tener al menos 10 caracteres');
 			}
-			if (value.length > 50) {
-				return (error = 'La descripción debe tener menos de 50 caracteres');
+			if (value.length > 200) {
+				return (error = 'La descripción debe tener menos de 200 caracteres');
 			}
 		}
 

@@ -17,7 +17,7 @@ export const Service = (props) => {
 					<h2 className='font-bold'> {user.nombre + ' ' + user.apellido} </h2>
 					<p> {service.categoria} </p>
 					<p> {service.nombre} </p>
-					<p> {user.descripcion} </p>
+					{/* <p> {user.descripcion} </p> */}
 				</div>
 			</div>
 

@@ -75,7 +75,7 @@ export const EditProfile = () => {
 			}
 		}
 
-		if (name === 'telefono') {
+        if (name === 'telefono') {
 			if (!/^\d+$/.test(value)) {
 				return (error = 'El telefono debe ser un número');
 			} else if (isNaN(parseInt(value))) {
@@ -95,8 +95,8 @@ export const EditProfile = () => {
 		if (name === 'descripcion') {
 			if (value.length < 10)
 				return (error = 'La descripción debe tener al menos 10 caracteres');
-			if (value.length > 50)
-				return (error = 'La descripción no puede tener más de 50 caracteres');
+			if (value.length > 200)
+				return (error = 'La descripción no puede tener más de 200 caracteres');
 		}
 
 		return error;

@@ -44,8 +44,13 @@ export const CreateService = () => {
 			}
 		}
 
-		if (name === 'descripcion' && value.length < 10) {
-			return (error = 'La descripción debe tener al menos 10 caracteres');
+		if (name === 'descripcion') {
+			if (value.length < 10) {
+				return (error = 'La descripción debe tener al menos 10 caracteres');
+			}
+			if (value.length > 200) {
+				return (error = 'La descripción debe tener menos de 200 caracteres');
+			}
 		}
 
 		return error;

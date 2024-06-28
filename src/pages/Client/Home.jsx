@@ -7,7 +7,7 @@ export const Home = () => {
 		<main>
 			<div className='m-[10%] flex flex-col items-center justify-center px-[10%] lg:m-[4%] lg:mb-[0] lg:px-[5%]'>
 				<h1 className='mb-4 text-center text-[2.5rem] text-[#00A89C] sm:text-[3.5rem]'>
-					Miemboros felices, mascotas felices!
+					Miembros felices, mascotas felices!
 				</h1>
 				<section className='my-16 flex flex-col flex-wrap space-y-[30px] md:flex-row'>
 					<div className='flex w-[100%] flex-col items-center justify-start sm:flex-row'>
