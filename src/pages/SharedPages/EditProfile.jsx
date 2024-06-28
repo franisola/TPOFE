@@ -157,15 +157,12 @@ export const EditProfile = () => {
 			} else if (key === 'email') {
 				const emailFormData = formData[key].toLowerCase();
 
-                if (emailFormData === userData[key]) {
-                    return true;
-                }
-
 				if (emailFormData !== userData[key]) {
 					return false;
 				}
 			} else if (key === 'zona') {
 				const zonaUserData = barriosCABA.indexOf(userData[key]);
+
 				if (formData[key] !== zonaUserData) {
 					return false;
 				}
@@ -175,8 +172,6 @@ export const EditProfile = () => {
 		}
 		return true;
 	}
-
-
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();

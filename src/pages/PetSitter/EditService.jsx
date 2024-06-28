@@ -185,9 +185,9 @@ export const EditService = () => {
 				Editar servicio
 			</h1>
 			<form onSubmit={handleSubmit} className='flex w-[100%] flex-col items-center'>
-				<div className='flex w-[75%] flex-col items-center'>
-					<div className='mb-[15px] flex w-[100%] flex-wrap items-center justify-between'>
-						<label htmlFor='nombre' className='w-[20%] font-bold'>
+				<div className='flex w-[100%]  md:w-[75%] flex-col items-center'>
+					<div className='mb-[15px] flex flex-col  md:flex-row w-[100%] flex-wrap md:items-center md:justify-between'>
+						<label htmlFor='nombre' className=' md:w-[20%] font-bold'>
 							Nombre:
 						</label>
 						<input
@@ -206,8 +206,8 @@ export const EditService = () => {
 						</p>
 					</div>
 
-					<div className='mb-[15px] flex w-[100%] flex-wrap items-center justify-between'>
-						<label htmlFor='categoria' className='w-[20%] font-bold'>
+					<div className='mb-[15px] flex flex-col  md:flex-row w-[100%] flex-wrap md:items-center md:justify-between'>
+						<label htmlFor='categoria' className=' md:w-[20%] font-bold'>
 							Categoria:
 						</label>
 
@@ -231,8 +231,8 @@ export const EditService = () => {
 							{errors.categoria}
 						</p>
 					</div>
-					<div className='mb-[15px] flex w-[100%] flex-wrap items-center justify-between'>
-						<label htmlFor='frecuencia' className='w-[20%] font-bold'>
+					<div className='mb-[15px] flex flex-col  md:flex-row w-[100%] flex-wrap md:items-center md:justify-between'>
+						<label htmlFor='frecuencia' className=' md:w-[20%] font-bold'>
 							Frecuencia:
 						</label>
 						<select
@@ -255,8 +255,8 @@ export const EditService = () => {
 							{errors.frecuencia}
 						</p>
 					</div>
-					<div className='mb-[15px] flex w-[100%] flex-wrap items-center justify-between'>
-						<label htmlFor='tipoMascota' className='w-[20%] font-bold'>
+					<div className='mb-[15px] flex flex-col  md:flex-row w-[100%] flex-wrap md:items-center md:justify-between'>
+						<label htmlFor='tipoMascota' className=' md:w-[20%] font-bold'>
 							Tipo de mascota:
 						</label>
 						<select
@@ -279,8 +279,8 @@ export const EditService = () => {
 							{errors.tipoMascota}
 						</p>
 					</div>
-					<div className='mb-[15px] flex w-[100%] flex-wrap items-center justify-between'>
-						<label htmlFor='costoHR' className='w-[20%] font-bold'>
+					<div className='mb-[15px] flex flex-col  md:flex-row w-[100%] flex-wrap md:items-center md:justify-between'>
+						<label htmlFor='costoHR' className=' md:w-[20%] font-bold'>
 							Costo/hr:
 						</label>
 						<input
@@ -298,8 +298,8 @@ export const EditService = () => {
 							{errors.costoHR}
 						</p>
 					</div>
-					<div className='mb-[15px] flex w-[100%] flex-wrap items-center justify-between'>
-						<label htmlFor='estado' className='w-[20%] font-bold'>
+					<div className='mb-[15px] flex flex-col  md:flex-row w-[100%] flex-wrap md:items-center md:justify-between'>
+						<label htmlFor='estado' className=' md:w-[20%] font-bold'>
 							Estado:
 						</label>
 						<select
@@ -322,8 +322,8 @@ export const EditService = () => {
 							{errors.estado}
 						</p>
 					</div>
-					<div className='mb-[15px] flex w-[100%] flex-wrap items-center justify-between'>
-						<label htmlFor='descripcion' className='w-[20%] font-bold'>
+					<div className='mb-[15px] flex flex-col  md:flex-row w-[100%] flex-wrap md:items-center md:justify-between'>
+						<label htmlFor='descripcion' className=' md:w-[20%] font-bold'>
 							Descripcion:
 						</label>
 						<input
@@ -341,7 +341,7 @@ export const EditService = () => {
 							{errors.descripcion}
 						</p>
 					</div>
-					<div className='mt-8 flex w-[50%] justify-between self-start'>
+					<div className='mt-8 flex w-[100%] xl:w-[50%] justify-between self-start'>
 						<button
 							type='submit'
 							className='w-[45%] rounded-[10px] bg-[#7900cc] py-[5px] font-bold text-white'
