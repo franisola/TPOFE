@@ -42,9 +42,6 @@ export const ServicePetSitter = (props) => {
 			>
 				Editar
 			</Link>
-			<Link to='' className='mt-[3px] self-center text-[#7900cc]'>
-				Ver comentarios
-			</Link>
 		</div>
 	);
 };
